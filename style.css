@@ -299,3 +299,45 @@ a {
     align-items: center;
     justify-content: center;
 }
+
+.btn-GCA{
+    background-color: #DB7525;
+    color: #fff;
+    margin: auto;
+    border-radius: 25px;
+    border: 2px solid rgb(134, 132, 132);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-VITA{
+    background-color: #DB7525;
+    color: #fff;
+    margin: auto;
+    border-radius: 25px;
+    border: 2px solid rgb(134, 132, 132);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-backpack{
+    background-color: #DB7525;
+    color: #fff;
+    margin: auto;
+    border-radius: 25px;
+    border: 2px solid rgb(134, 132, 132);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#downloads{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
