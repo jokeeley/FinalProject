@@ -357,6 +357,123 @@ transition: transform 500ms;
 
 /* #endregion */
 
+/* #region Defaults and Variables */
+
+:root {
+    --bg-color: #fff;
+    --primary: #db7525;
+    --secondary: #e0e0e0cc;
+    --navy: #000080;
+    --text-primary: #fff;
+    --text-secondary: #222;
+    --a-primary: #000;
+    --a-secondary: #221f1f;
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  navbar h1 {
+    font-size: 7rem;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  navbar h2 {
+    font-size: 6rem;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  navbar h3 {
+    font-size: 5rem;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  navbar h4 {
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  navbar h5 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  navbar h6 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  navbar p {
+    font-size: 2rem;
+  }
+  
+  navbar a {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  navbar label {
+    cursor: pointer;
+  }
+  
+  navbar button {
+    background-color: var(--primary);
+    transition: background-color 500ms;
+  }
+  
+  navbar button:hover {
+    background-color: #181818;
+    transition: background-color 500ms;
+  }
+  
+  navbar button a {
+    color: var(--text-primary);
+    line-height: 2rem;
+  }
+  
+  navbar .form-input {
+    font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+    width: 30rem;
+    height: 5rem;
+    margin-left: 0;
+    border: none;
+    font-size: 2.3rem;
+    padding-left: 2rem;
+    background-color: #eee;
+  }
+  
+  navbar .form-button {
+    font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+    height: 5rem;
+    width: 12rem;
+    border: none;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.15rem;
+    background-color: rgb(253, 143, 58);
+    color: var(--text-primary);
+    cursor: pointer;
+  }
+  
+  navbar .form-button:hover {
+    background-color: #111;
+  }
+  
+  navbar .idk-makes-header-work {
+    visibility: hidden;
+    position: absolute;
+  }
+  
+  /* #endregion */
+
 #about-widget {
     display: flex;
     flex-direction: column;
